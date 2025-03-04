@@ -66,7 +66,7 @@ The popup interface allows users to view their tracked time in an intuitive form
 
 ---
 
-### Styling with Custom CSS (`custom.css`)**
+### Styling with Custom CSS (`custom.css`)
 To make the UI more user-friendly, the extension employs:
 - **Bootstrap Grid** for responsive design.
 - **Custom fonts and colors** for a modern, sleek look.
