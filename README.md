@@ -74,5 +74,6 @@ To make the UI more user-friendly, the extension employs:
 # OUTPUT - 
 ![image](https://github.com/user-attachments/assets/7ab10447-f9b0-4788-afad-d9d4fbbd2565)
 
-![image](https://github.com/user-attachments/assets/d1886935-09a4-4eb8-ad40-e2008a33d2a1)
+![image](https://github.com/user-attachments/assets/35779273-d070-4b01-8975-3801ba7e61f0)
+
 
