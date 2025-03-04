@@ -11,23 +11,23 @@
 
 **MENTOR NAME** : Neela Santhosh
 
-## 🚀 **Features**  
+##  **Features**  
 
-- ⏳ **Automatic Time Tracking** – Logs time spent on each website while browsing.  
-- 📊 **Visual Statistics** – Displays time data using an interactive bar chart.  
-- 💾 **Persistent Data Storage** – Uses Chrome’s `storage.local` API to save session history.  
-- 🎛 **User-Friendly Interface** – A clean, minimal popup UI for easy access.  
-- 🔄 **Real-Time Updates** – Data updates dynamically as the user browses.  
-- ⚡ **Lightweight & Efficient** – Runs in the background without slowing down the browser.  
+-  **Automatic Time Tracking** – Logs time spent on each website while browsing.  
+-  **Visual Statistics** – Displays time data using an interactive bar chart.  
+-  **Persistent Data Storage** – Uses Chrome’s `storage.local` API to save session history.  
+-  **User-Friendly Interface** – A clean, minimal popup UI for easy access.  
+-  **Real-Time Updates** – Data updates dynamically as the user browses.  
+-  **Lightweight & Efficient** – Runs in the background without slowing down the browser.  
 
-## 🛠 **Tech Stack**  
+##  **Tech Stack**  
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Chrome Extension APIs  
 - **Libraries:** jQuery, Chart.js  
 - **Storage:** Chrome Storage API  
 
-## 📂 **Project Structure**  
+##  **Project Structure**  
 
 ```
 web-time-tracker/
@@ -39,7 +39,7 @@ web-time-tracker/
 │── Chart.min.js         # Library for visualizing time-tracking data
 ```
 
-## ⚙️ **How It Works**  
+## Working 
 
 - The extension runs a **background script (`background.js`)** that listens for **tab changes** and calculates time spent on each website.  
 - The data is **stored locally** using `chrome.storage.local`, allowing persistent time tracking.  
@@ -47,7 +47,7 @@ web-time-tracker/
 - **Chart.js** is used to render time-tracking data in an easy-to-understand bar chart.  
 
 
-### ** Implementing Background Tracking (`background.js`)**
+### Implementing Background Tracking (`background.js`)
 The **background script** is responsible for continuously monitoring active tabs and logging time spent on websites. It works as follows:
 
 1. **Detecting Tab Changes**: The script listens for tab switches using the `chrome.tabs.onActivated` event.
@@ -57,7 +57,7 @@ The **background script** is responsible for continuously monitoring active tabs
 
 ---
 
-### ** Designing the Popup UI (`popup.html` & `popup.js`)**
+### Designing the Popup UI (`popup.html` & `popup.js`)
 The popup interface allows users to view their tracked time in an intuitive format.
 
 - **`popup.html`**: Contains a structured layout with buttons, text sections, and a canvas for displaying charts.
